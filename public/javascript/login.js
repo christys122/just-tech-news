@@ -9,7 +9,7 @@ async function signupFormHandler(event) {
 
     if (username && email && password) {
         await fetch('/api/users', {
-          method: 'post',git 
+          method: 'post',
           body: JSON.stringify({
             username,
             email,
